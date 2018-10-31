@@ -74,6 +74,16 @@
             ],
             "source": "data.csv",
             "target": "an4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "v4",
+                    "type": "csv"
+                }
+            ],
+            "source": "an4.R",
+            "target": "csvfile2448.csv"
         }
     ],
     "nodes": [
@@ -113,6 +123,6 @@
             "name": "csvfile2448.csv"
         }
     ],
-    "updated_at": "2018-10-31 17:32:02",
+    "updated_at": "2018-10-31 17:32:10",
     "url": "https://github.com/fall2018-saltz-test/test12"
 }
