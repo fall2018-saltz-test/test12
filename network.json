@@ -58,6 +58,7 @@
             "ports": [
                 {
                     "input": "var1",
+                    "output": "v1",
                     "type": "r_obj"
                 }
             ],
@@ -76,8 +77,10 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "yatish2",
             "desc": "",
-            "name": "analysis.R"
+            "name": "analysis.R",
+            "task_status": "in progress"
         },
         {
             "name": "csvfile5215.csv"
@@ -91,6 +94,6 @@
             "name": "an3.R"
         }
     ],
-    "updated_at": "2018-10-31 16:56:55",
+    "updated_at": "2018-10-31 17:29:41",
     "url": "https://github.com/fall2018-saltz-test/test12"
 }
