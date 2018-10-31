@@ -68,12 +68,11 @@
         {
             "ports": [
                 {
-                    "input": "var4",
-                    "output": "v4",
-                    "type": "r_obj"
+                    "input": "df4",
+                    "type": "csv"
                 }
             ],
-            "source": "an2.R",
+            "source": "data.csv",
             "target": "an4.R"
         }
     ],
@@ -111,6 +110,6 @@
             "name": "an4.R"
         }
     ],
-    "updated_at": "2018-10-31 17:31:29",
+    "updated_at": "2018-10-31 17:31:55",
     "url": "https://github.com/fall2018-saltz-test/test12"
 }
