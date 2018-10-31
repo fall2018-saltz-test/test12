@@ -53,6 +53,16 @@
             ],
             "source": "data.csv",
             "target": "an2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "var1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "an2.R",
+            "target": "an3.R"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "an3.R"
         }
     ],
-    "updated_at": "2018-10-31 16:56:46",
+    "updated_at": "2018-10-31 16:56:55",
     "url": "https://github.com/fall2018-saltz-test/test12"
 }
