@@ -43,6 +43,16 @@
             ],
             "source": "analysis.R",
             "target": "csvfile5215.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df2",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "an2.R"
         }
     ],
     "nodes": [
@@ -71,6 +81,6 @@
             "name": "an3.R"
         }
     ],
-    "updated_at": "2018-10-31 16:56:19",
+    "updated_at": "2018-10-31 16:56:46",
     "url": "https://github.com/fall2018-saltz-test/test12"
 }
